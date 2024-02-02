@@ -1,0 +1,160 @@
+/* global rules */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+
+p {
+    color: hsl(0, 0%, 81%);
+}
+img {
+    border-radius: 50%;
+    border: 1px solid #98999f;
+    height: 40px;
+    width: 40px;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5 {
+    padding: 25px 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 3px #05153f1f;
+}
+/* end global rules */
+.project-5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 1000px;
+    height: 500px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4 , 250px);
+    grid-template-rows: repeat(2 , 300px);
+    grid-gap: 20px;
+    height: 125vh;
+}
+/* card one design */ 
+.card-1 {
+    background-color: hsl(263, 55%, 52%);
+    grid-column: span 2;
+}
+.card-1 h3,
+.card-1 h2 {
+    color: #fff;
+}
+.card-1 .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.card-1 .bio h2 {
+    margin-bottom: 20px;
+}
+.card-1::after {
+    content: url(../testimonials-grid-section-main/images/bg-pattern-quotation.svg);
+    height: 25%;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: 450px;
+    opacity: 40%;
+}
+/* end card one design */
+/* card two design */
+.card-2 {
+    background-color: hsl(217, 19%, 35%);
+}
+.card-2 h3,
+.card-2 h2 {
+    color: #fff;
+}
+.card-2 .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 165px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.card-2 .bio h2 {
+    margin-bottom: 20px;
+}
+/* end card two design */ 
+/* card three design */
+.card-3 {
+    background-color: #fff;
+    grid-row: span 2;
+}
+.card-3 h3,
+.card-3 h2 {
+    color: hsl(217, 19%, 35%);
+}
+.card-3 .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.card-3 .bio h2 {
+    margin-bottom: 20px;
+}
+/* end card three design */
+/* card four deign */
+.card-4 {
+    background-color: #fff;
+}
+.card-4 h3,
+.card-4 h2 {
+    color: hsl(217, 19%, 35%);
+}
+.card-4 .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 165px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.card-4 .bio h2 {
+    margin-bottom: 20px;
+}
+/* end card four design */
+/* card five design */
+.card-5 {
+    background-color: hsl(219, 29%, 14%);
+    grid-column-end: span 2;
+}
+.card-5 h3,
+.card-5 h2 {
+    color: #fff;
+}
+.card-5 .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.card-5 .bio h2 {
+    margin-bottom: 20px;
+}
+/* end card five design */
